@@ -74,7 +74,7 @@ public class WebTours {
         driver.findElement(By.name("departDate")).sendKeys("01/19/2019");
 
 
-        driver.findElement(By.name("returnDate")).sendKeys("01/21/2019");
+       // driver.findElement(By.name("returnDate")).sendKeys("01/21/2019");
 
 
         driver.findElement(By.name("seatPref")).click();
