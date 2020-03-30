@@ -6,6 +6,11 @@ public class thirtymarchtwentytwenty {
     System.setProperty("webdriver.chrome.driver", "C:\\Drivers\\SeleniumDriver\\chromedriver.exe");
 
     WebDriver driver  = new ChromeDriver();
+    System.setProperty("webdriver.chrome.driver", "C:\\Drivers\\SeleniumDriver\\chromedriver.exe");
+
+    WebDriver driver  = new ChromeDriver();
+
+        driver.get("https://personal.natwest.com/personal.html");
 
         driver.get("https://personal.natwest.com/personal.html");
 }
