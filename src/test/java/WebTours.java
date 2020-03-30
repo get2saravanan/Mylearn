@@ -78,6 +78,7 @@ public class WebTours {
 
 
         driver.findElement(By.name("seatPref")).click();
+        //driver.findElement(By.name("seatPref")).click();
 
         driver.findElement(By.xpath("/html/body/blockquote/form/table/tbody/tr[5]/td[1]/label[2]")).click();
 
